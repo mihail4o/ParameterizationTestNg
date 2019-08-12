@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="ITestContextInTestNg_A">
+        <groups>
+            <run>
+                <include name="A" />
+            </run>
+        </groups>
+        <classes>
+            <class name="parameterization.ParameterByITestContextInDataprovider"></class>
+        </classes>
+    </test>
+
+    <test name="ITestContextInTestNg_B">
+        <groups>
+            <run>
+                <include name="B" />
+            </run>
+        </groups>
+        <classes>
+            <class name="parameterization.ParameterByITestContextInDataprovider"></class>
+        </classes>
+    </test>
+</suite>

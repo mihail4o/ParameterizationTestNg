@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" thread-count="3">
+    <parameter name="author" value="demo"></parameter>
+    <parameter name="searchKey" value="Bulgaria"></parameter>
+    <test name="ParameterizationTestNg">
+<!--        <parameter name="searchKey" value="UK"></parameter>-->
+        <classes>
+            <class name="parameterization.ParameterWithTestNGXML" />
+        </classes>
+    </test>
+</suite>
